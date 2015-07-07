@@ -1,0 +1,67 @@
+
+
+# schimbarea numelui fișierului implicit
+#DirectoryIndex main.php
+
+
+
+
+# accesul la conținutul folderului curent
+Options +Indexes
+
+
+
+
+# filtrarea unor tipuri de fișiere
+#IndexIgnore *.html *.txt *Controller.php
+
+
+
+
+
+# permite/interzice accesul la anumite fișiere de la un anumit IP
+#<Files config.php>
+#	order allow,deny
+#	deny from all
+#	allow from 5.2.321.123
+#</Files>
+
+
+
+
+
+# la fel ca files, dar se aplică fișierelor care respectă șablonul
+#<FilesMatch "\.(html)$">
+#	order allow,deny
+#	deny from all
+#</FilesMatch>
+
+
+
+
+
+
+
+# stabilirea unor regului de conversie a unor șiruri de caractere
+
+RewriteEngine On
+
+RewriteRule index.html index.php
+
+RewriteRule test.html http://www.google.com
+
+RewriteRule ^([a-zA-Z]+)\.html$ index.php?page=$1
+
+# RewriteRule ^(.*)\.html$ index.php?page=$1
+
+
+
+
+
+
+# autentificare prin user/parolă
+
+#AuthType Basic
+#AuthName "Introdu datele de autentificare"
+#AuthUserFile /var/www/html/workspace/dungur/sitedeliaungur/.htpasswd
+#Require valid-user

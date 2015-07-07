@@ -1,0 +1,209 @@
+
+body{
+    background-color:#0B933B;
+  	padding-left:122px;
+  	padding-right:122px;
+    position:relative;
+    padding-top:50px;
+    padding-bottom:20px;
+
+}
+
+
+.fundalhome{
+    background:url('fundal.jpg');
+    
+    background-size:100%;
+    background-repeat:repeat-y;/*sau background-repeat:bottom;*/
+    background-attachment:scroll;
+    border-top-right-radius:8px;
+	border-top-left-radius:8px;
+	
+}
+
+nav{
+	position:relative;
+	height:50px;
+	background: #7A3923; 
+    border-top-right-radius:8px;
+	border-top-left-radius:8px;
+	background-color:#7A3923;
+	margin:0px;
+	padding: 0 20px;
+	/*la ce asuta display: inline-table;*/
+	}
+.linav{
+	display:inline;
+	list-style:none;
+	}
+nav ul li a{
+	color:white;
+	font-size:22px;
+	text-decoration:none;
+	padding:85px;
+
+}
+
+.lishare{
+    list-style:none;
+    margin:20px;
+}
+
+aside:before{
+ display:table;
+}
+aside:after{
+ display:table;
+ clear: both;
+}
+
+aside{
+	border: none;
+	float:left;
+	width: 25%;
+	height: 1500px; /*Cum fac ca aside sa isi ia lungimea in functie de textul adaugat la section*/
+	padding: 5px;
+	margin: 5px;
+}
+
+
+
+
+.legaturi{
+	padding: 0px;
+	margin: 0px;
+	color: black;
+	font-variant: normal;
+	text-align: justify;
+	width: 95%;
+}
+.dotss{
+	border-bottom:3px dotted  #7A3923 ;
+}
+
+section{
+	padding:3%;
+}
+
+.imagearticle{
+	height:20%;
+	float:left;
+	width:170px;
+	height:130px;
+	margin:5px;
+}
+
+p{
+	text-indent:50px;
+	text-align:justify;
+}
+p.datepersonale{
+    text-indent:0px;
+}
+p.share{
+     margin:20px;
+     text-indent:0px;
+     line-height:2em;
+     font-weight:bold;
+}
+
+.datecontact, .contact{
+	margin-left:130px;/*Nu se modifica*/
+}
+
+.title{
+    color:#7A3923;
+}
+
+
+
+
+
+.pos_fixed{
+color:black;
+position:fixed;
+top:30px;
+right:5px;
+}
+
+
+fieldset{
+	width: 250px;
+}
+
+.ulform{
+    display:block;
+	list-style-type: none;
+}
+
+
+.imgarticole1{
+     border-radius:100%;
+     width:100px;
+      position:absolute;
+      left: 700px;
+      top: 750px;
+}
+
+.particole1{
+    position:absolute;
+     left: 675px;
+     top: 840px;
+}
+
+.imgarticole2{
+     border-radius:100%;
+     width:100px;
+     position:absolute;
+     left: 500px;
+     top: 900px;
+}
+
+.particole2{
+     position:absolute;
+     left: 470px;
+     top: 990px;
+}
+
+.imgarticole3{
+     border-radius:100%;
+     width:100px;
+     position:absolute;
+     left: 600px;
+     top: 1100px;
+	
+}
+.particole3{
+    position:absolute;
+    left: 575px;
+    top: 1190px;
+}
+
+.imgarticole4{
+     border-radius:100%;
+     width:100px;
+     position:absolute;
+     left: 800px;
+     top: 1100px;
+}
+
+.particole4{
+    position:absolute;
+    left: 785px;
+    top: 1190px;
+}
+
+.imgarticole5{
+     border-radius:100%;
+     width:100px;
+     position:absolute;
+     left: 900px;
+     top: 900px;
+	
+}
+
+.particole5{
+    position:absolute;
+     left: 885px;
+     top: 990px;
+}
